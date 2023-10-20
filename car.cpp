@@ -218,7 +218,7 @@ public:
 	{
 		while (--speed > 0)
 		{
-			std::this_thread::sleep_for(2s);
+			std::this_thread::sleep_for(1s);
 			cout << "Трение" << endl;
 		}
 	}
